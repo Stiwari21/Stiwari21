@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwali Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Diwali!</h1>
+        <p>Celebrate the festival of lights with joy and happiness.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Diwali</a></li>
+            <li><a href="#activities">Celebration Activities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Diwali</h2>
+        <p>Diwali, also known as Deepavali, is one of the most important festivals in Hindu culture. It symbolizes the victory of light over darkness and good over evil.</p>
+    </section>
+
+    <section id="activities">
+        <h2>Celebration Activities</h2>
+        <ul>
+            <li>Lighting Diyas</li>
+            <li>Decorating with Rangoli</li>
+            <li>Exchanging Gifts</li>
+            <li>Fireworks</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://assets.onecompiler.app/42wp24dba/42wq8g9vq/how-to-celebrate-diwali-in-lockdown-Indiagift-768x480-1.png" alt="Diwali Celebration 1">
+        <img src="https://assets.onecompiler.app/42wp24dba/42wq8g9vq/2023-11-07-18-33-08-654a358cdd99c-2023-07-21-13-56-07-64ba411f1b660-Diwali--Festival-of-light-min.jpg" alt="Diwali Celebration 2">
+        <img src="https://assets.onecompiler.app/42wp24dba/42wq8g9vq/places-to-celebrate-diwali-in-india.png" alt="Diwali Celebration 3">
+    </section>
+
+    <section id="recipes">
+        <h2>Popular Recipes</h2>
+        <ul>
+            <li>Gulab Jamun</li>
+            <li>Jalebi</li>
+            <li>Samosa</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Diwali Celebration</p>
+    </footer>
+</body>
+</html>
